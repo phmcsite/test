@@ -1,0 +1,214 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Princeton Hidden Minority Council | Contact Us</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Princeton Hidden Minority Council, PHMC" />
+    
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    function postContactToGoogle() {
+        var email = $('#Email').val();
+        var name = $('#First').val();
+        var subject = $('#Last').val();
+        var message = $('#Company').val();
+
+            $.ajax({
+                url: "https://docs.google.com/forms/d/1PTIFxKDZBqKdrkGAgrsa28wus8FyP6XrMTWzabRuC18/formResponse",
+                data: { "entry_1402836733": email,
+                "entry_1874720748": first, "entry_2092106103":
+                last, "entry_944373055": company },
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function () {
+                        window.location.replace("ThankYou.html");
+                    },
+                    200: function () {
+                        window.location.replace("ThankYou.html");
+                    }
+                }
+            });
+    }
+</script>    
+    
+    
+    
+</head>
+<body>
+		<!--header-->
+			<div class="header">
+				<div class="container">
+					<div class="header-top">
+						<nav class="navbar navbar-default">
+							<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+									  </button>
+<!--
+									<div class="navbar-brand">
+										<h1><a href="index.html">PHMC</a></h1>
+									</div>
+-->
+								</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							  <ul class="nav navbar-nav">
+									<li><a href="index.html">Home </a></li>
+                                  <li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Campaigns <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="gallery.html">Thoughts 1</a></li>
+                                    <li><a href="gallery2.html">Thoughts 2</a></li>
+								</ul>
+									</li>
+                                <li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organisations <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="about.html">Princeton Hidden Minority Council</a></li>
+									<li><a href="gates.html">Gates Millenium Scholars</a></li>
+									<li><a href="leda.html">LEDA Scholars</a></li>
+                                    <li><a href="quest.html">Quest Scholars Network</a></li>
+								</ul>
+									</li>									                      
+                                  <li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="academic.html">Academic</a></li>
+									<li><a href="financial.html">Financial</a></li>
+									<li><a href="social.html">Social</a></li>
+								</ul>
+									</li>
+                                  <li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">People <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="council.html">Council Members</a></li>
+									<li><a href="undergrad.html">Undergraduates</a></li>
+									<li><a href="faculty.html">Faculty and Administration</a></li>
+								</ul>
+									</li>
+									<li><a href="contact.html"><li class="active">Contact Us<span class="sr-only">(current)</span></a></li>
+								</ul>
+							  
+							</div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+						</nav>
+
+					</div>
+				</div>
+				</div>
+					
+		<div class="banner-header">
+			<div class="container">
+				<h2>contact us</h2>
+			</div>
+			</div>
+	<!--header-->
+	 <div class="content">
+ 		<div class="contact">
+ 			<div class="container">
+				<div class="contact_top">
+			 		<div class="col-md-8 contact_left">
+			 			<h3>Contact Form</h3>
+			 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean sollicitudin vitae dolor ut posuere.</p>
+					  <form action="#" method="post">
+						 <div class="form_details">
+					          <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+							  <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+							  <input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+							  <textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+							  <div class="clearfix"> </div>
+							 	 <div class="sub-button">
+							  		<input type="submit" value="Send message">
+								 </div>
+						  </div>
+						  </form>
+				 </div>
+			    <div class="col-md-4 company-right">
+					   <div class="company_ad">
+							<h3>Contact Info</h3>
+							 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit velit justo.</p>
+			      			<address>
+	 							 <p>Email : <a href="mailto:example@mail.com">example@mail.com</a></p>
+								 <p>Phone : 1.306.222.4545</p>
+								 <p>222 2nd Ave South</p>
+								 <p>Saskabush, SK   S7M 1T6</p>
+							</address>
+						</div>
+				</div>	
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--specials-->
+				<div class="specials-section">
+					<div class="container">
+						<div class="specials-grids">
+							<div class="col-md-3 specials1">
+								<h3>timings</h3>
+									<p>10:30 Am - 10:45 Am Dino Chat</p>
+									<p>11:00 Am - 11:15 Am Panda</p>
+									<p>11:30 Am - 12:00 PM Farm Chat</p>
+									<p>12:00 Pm - 01:00 Pm Feeding</p>
+							</div>
+							<div class="col-md-3 specials1">
+								<h3> details</h3>
+								<ul>
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms & Conditions</a></li>
+									<li><a href="contact.html">SiteMap</a></li>
+								</ul>
+							</div>
+							<div class="col-md-3 specials1">
+								<h3>contact</h3>
+								<address>
+									<p>The Company Name Inc.</p>
+									<p>Glasgow,Le 99 Pr 45.</p>
+									<p>Telephone : +1 800 603 6035</p>
+									<p>FAX : +1 800 889 9898</p>
+									<p>Email : <a href="mailto:example@mail.com">example@mail.com</a></p>
+								</address>
+							</div>
+							<div class="col-md-3 specials1">
+								<h3>social</h3>
+								<ul>
+									<li><a href="#">facebook</a></li>
+									<li><a href="#">twitter</a></li>
+									<li><a href="#">google+</a></li>
+									<li><a href="#">vimeo</a></li>
+								</ul>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--footer-->
+			<div class="footer-section">
+				<div class="container">
+					<div class="footer-top">
+						<p>&copy; 2015 Zoo Planet . All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+					</div>
+				</div>
+			</div>
+</body>
+</html>
